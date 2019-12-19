@@ -1,0 +1,21 @@
+{
+   "name": "",
+   "description": "",
+   "data": [
+       {
+           "file": "base_dummy.yaml",
+           "type": "HEAT",
+           "isBase": "true",
+           "data": [
+               {
+                   "file": "base_dummy.env",
+                   "type": "HEAT_ENV"
+               }
+           ]
+       },
+       {
+           "file": "core_cloudtech_k8s_charts.tgz",
+           "type": "CLOUD_TECHNOLOGY_SPECIFIC_ARTIFACTS"
+       }
+]
+}
